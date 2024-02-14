@@ -1,0 +1,8 @@
+chetan\pageobjects\ProductCatalogue.class
+chetan\resources\ExtentReporterNG.class
+chetan\pageobjects\LandingPage.class
+chetan\pageobjects\OrderPage.class
+chetan\pageobjects\CheckoutPage.class
+chetan\AbstractComponents\AbstractComponent.class
+chetan\pageobjects\ConfirmationPage.class
+chetan\pageobjects\CartPage.class

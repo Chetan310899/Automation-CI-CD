@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Submit Order(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="purchase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="chetan.tests.SubmitOrderTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="tearDown"/>
+          <include name="submitOrder" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- chetan.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- Submit Order(failed) -->
+</suite> <!-- Failed suite [Suite] -->
